@@ -1,0 +1,25 @@
+{
+  "name": "slack-proposal-voter",
+  "version": "1.0.0",
+  "description": "Sends votes for governance proposals through slack interface",
+  "main": "src/main.ts",
+  "repository": "https://github.com/AmitPr/slack-proposal-voter",
+  "author": "Amit Prasad",
+  "license": "MIT",
+  "dependencies": {
+    "@cosmjs/proto-signing": "^0.29.5",
+    "@cosmjs/stargate": "^0.29.5",
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3",
+    "kujira.js": "https://github.com/Team-Kujira/kujira.js",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^18.14.0",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  }
+}
